@@ -1,0 +1,116 @@
+.mynav{
+    padding: 20px!important;
+    background-color: #fff!important;
+    box-shadow: 5px 1px 8px rgb(46, 46, 46) !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+.active{
+    border-bottom: solid 2px orangered!important;
+}
+.cover{
+    /* border: solid 1px black; */
+    margin-top: 80px;
+    width: 100%;
+    height: 65vh;
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cover-text{
+    color: #fff;
+    width: fit-content;
+    font-family: cursive;
+    margin-top: 120px;
+    padding: 20px;
+}
+.round{
+    border-radius: 25px!important;
+}
+.move{
+    margin-top: 20px;
+}
+.shift{
+    margin-top: 30px;
+}
+.h_style{
+    font-family: 'Raleway', sans-serif;
+}
+.steps{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.package{
+    color: #fff;
+    height: 90vh!important;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+* {
+    box-sizing: border-box;
+  }
+  .header{
+      background-color: #fff!important;
+      padding: 20px!important;
+  }
+  .columns {
+    width: 65%;
+    height: 60vh!important;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+  }
+  
+  .list{
+      margin-bottom: 30px;
+      padding-left: 40px;
+  }
+  .p_list{
+      margin-bottom: 5px;
+  }
+  .attention{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      text-align: center;
+      background-color: purple;
+      color: #fff;
+      padding: 6px;
+      border-radius: 5px;
+  }
+  .online_text{
+    margin-top: 60px;
+}
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+      height: auto!important;
+      margin-bottom: 30px;
+    }
+    .online_pic{
+        width: 330px;
+    }  
+    .package{
+        height: auto!important;
+    }
+  }
+  @media only screen and (max-width: 1200px){
+      .online_pic{
+          width: 300px;
+      }
+      .columns {
+        width: 100%;
+        height: auto!important;
+        margin-bottom: 30px;
+      }
+      .online_text{
+        margin-top: 40px;
+    }
+    .package{
+        height: auto!important;
+    }
+  }
